@@ -1,0 +1,502 @@
+@font-face {
+    font-family: SpriteGraffiti;/* Гарнитура шрифта */
+    src: url(/fonts/SpriteGraffiti.ttf); /* Путь к файлу со шрифтом */
+   }
+
+* {
+	margin:0;
+	padding:0;
+	}
+
+html {
+	height: 100%;
+}
+
+body {
+	height:auto !important;
+	height:100%;
+	min-height:100%;
+	position: relative;
+  background-color: #ffffff;
+  color:#000;
+	font:12px Tahoma, Helvetica, Arial, Verdana;
+	}
+
+
+body p {
+	padding:4px 10px;
+	}
+
+a {
+	color:#333333;
+	text-decoration:none;
+	}
+	
+a:hover {
+	text-decoration:none;
+	}
+	
+.menu-container {
+	top:0;
+	left:0;
+	width: 100%;
+	height: 30px; 
+	background-color: #FB9F4C;
+	}	
+	
+.menu-container-item
+	{
+	 padding-top: 6px;
+	 height: 22px;
+	 margin-left:10px;
+	 display: inline-block;
+	 margin-right:10px;
+	 border-bottom: 2px solid #FB9F4C;
+	}
+
+.menu-container-item:hover
+	{
+		border-bottom: 2px solid  #fff;
+	}	
+.menu-container-item a {
+	font-family: Tahoma;
+	font-size:  16px;
+	color: #fff;
+	cursor: pointer;
+	}	
+	
+.footer
+{
+  position: absolute;
+  bottom: 0px;
+	width: 100%; 
+	height: 30px; 
+	z-index: 100;
+	border-top: 1px solid #d1d1d1;
+}
+
+.footer-container	{
+	font-family: Tahoma;
+	font-size:  12px;
+	color: #000;
+	cursor: pointer;
+}
+
+.footer-item	{
+	padding-top: 5px;
+	height: 22px;
+	margin-left:10px;
+	display: inline-block;
+	margin-right:10px;
+}
+.empty {
+	height:20px;
+	}
+	
+.center {
+	left:0;
+	right:0; 
+	top: 45px;
+	margin: auto;
+ 	width: 1040px;
+	padding-bottom: 40px;
+	min-height: 100%;
+
+	}
+	
+
+.wrap
+	{
+	position:relative; 	
+	height:auto !important;
+	height:100%;
+	min-height:100%;
+	width: 100%;
+	}	
+
+		
+.header {
+	position:absolute; 
+	height:142px;
+	}
+
+.main-header, .main-header a {
+	padding:10px;
+	font-style:Courier New;
+	font-size:22px;
+	background-color: #f1f1f1;
+	color:#333333;
+	}
+
+.main-header-p {
+	padding:10px;
+	font-style:Courier New;
+	font-size:20px;
+	color:#333333;
+	height: 50px;
+	float: left;
+	width: 319px;
+	border-bottom: 1px solid #d1d1d1;
+}
+
+.main-header-img {
+	padding:0px;
+	float: left;
+	width: 340px;
+}
+	
+.main-header-img-i	{	
+	vertical-align: middle;
+}	
+.main-content {
+	width:1040px;
+	padding-left:0px;
+	color:#333333;
+	height: auto;
+	min-height: 100%;
+	}
+	
+.main-content-art {
+	width:1040px;
+	padding-left:0px;
+	color:#333333;
+	height: auto;
+
+	background-color: #ffffff;
+	border: 1px solid #d1d1d1;
+	}
+	
+.main-container-block {
+	
+	width:1040px;
+	
+
+	}
+
+.main-bottom {
+	height:45px;
+	background-color: #333333;
+	color:#ffffff;
+	width: 100%;
+    position:relative;
+    top: 0px;
+	
+	}
+	
+.main-block {
+		width:340px;
+		height:430px;
+		margin-left:3px;
+		padding:0;
+		cursor:pointer; 
+		display:  inline-block;
+		background-color: #ffffff;
+		color:#333333;
+		box-shadow: 0 0 2px #000; /* ���� ��� ��������� ��������� */
+		-moz-box-shadow: 0 0 2px #000;
+		margin-bottom:5px;
+		margin-top: 5px;
+		transition: 0.2s linear;
+	}
+
+.main-block:hover {
+		background-color: #f1f1f1;
+}
+
+.main-preview-block {
+	padding-left:0px;
+	padding-right: 0px;
+	margin:0px;
+	width:340px;
+	height: 64px;
+	}
+
+
+.main-preview-text {
+	padding:0px;
+	font-style:Courier New;
+	font-size:18px;
+	}
+
+.main-preview-text-p {
+	padding:5px;
+	font-style:Tahoma;
+	font-size:16px;
+	float: left;
+	width:329px;
+	border-bottom: 1px solid #d1d1d1;
+	}
+	
+
+
+
+
+.aricles-widgets	{
+	position:relative; 
+	display: inline-block;
+	width:750px;
+	margin-left: 50px;
+	}
+.aricles-widgets-item	{
+	padding-top: 5px;
+	 height: 22px;
+	 margin-left:0px;
+	 display: inline-block;
+	 margin-right:0px;
+}	
+.logo {
+	height:auto;
+	margin-left:35px;
+	}
+
+/*  </general>  */
+h1 {
+	font-family:Tahoma, Helvetica, Arial, Verdana;
+	font-size:16px;
+	font-weight:bold;
+	margin:0;
+	padding:0;
+	}
+
+hr {
+	border:none;
+	border-top:1px solid #CCCCCC;
+	height:1px;
+	margin-bottom:25px;
+	}
+	
+h1 small{
+	font: 0.2em normal Tahoma, Helvetica, Arial, Verdana;
+	text-transform:uppercase;
+	letter-spacing: 1.4em;
+	display: block;
+	color: #ccc;
+}
+
+
+
+img 
+	{
+	border: none;
+	}
+
+
+/* ---------- LOGIN-FORM ---------- */
+
+#login-form {
+	margin: 50px auto;
+	width: 304px;
+}
+
+
+#icon-load{
+	margin: 50px auto;
+	width: 640px;
+}
+
+#login-form h1 {
+	background-color: #282830;
+	border-radius: 5px 5px 0 0;
+	color: #fff;
+	font-size: 14px;
+	padding: 20px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+
+
+#login-form fieldset {
+	background: #fff;
+	border-radius: 0 0 5px 5px;
+	padding: 20px;
+	position: relative;
+}
+
+#login-form fieldset:before {
+	background-color: #fff;
+	content: "";
+	height: 8px;
+	left: 50%;
+	margin: -4px 0 0 -4px;
+	position: absolute;
+	top: 0;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+	width: 8px;
+}
+
+#login-form input {
+	font-size: 14px;
+}
+
+#login-form input[type="email"],
+#login-form input[type="password"],
+#login-form input[type="text"] {
+	border: 1px solid #dcdcdc;
+	padding: 12px 10px;
+	width: 238px;
+}
+
+#login-form input[type="email"],
+#login-form input[type="text"] {
+	border-radius: 3px 3px 0 0;
+}
+
+#login-form input[type="password"] {
+	border-top: none;
+	border-radius: 0px 0px 3px 3px;
+}
+
+#login-form input[type="submit"] {
+	background: #1dabb8;
+	border-radius: 7px;
+	border: none;
+	color: #fff;
+	float: right;
+	font-weight: bold;
+	margin-top: 20px;
+	padding: 12px 20px;
+}
+
+#login-form input[type="submit"]:hover { background: #198d98; }
+
+#login-form footer {
+	font-size: 12px;
+	margin-top: 16px;
+}
+
+.info {
+	background: #e5e5e5;
+	border-radius: 50%;
+	display: inline-block;
+	height: 20px;
+	line-height: 20px;
+	margin: 0 0px 0 0;
+	text-align: center;
+	width: 20px;
+}
+
+/* Стили бара vladmaxi, можно удалить */
+.vladmaxi-top{
+	line-height: 24px;
+	font-size: 11px;
+	background: rgba(0, 0, 0, 0.08);
+	text-transform: uppercase;
+	z-index: 9999;
+	position: fixed;
+	top:0;
+	left:0;
+	width:100%;
+	font-family: calibri;
+	font-size: 13px;
+	box-shadow: 1px 0px 2px rgba(0,0,0,0.2);
+	-webkit-animation: slideOut 0.5s ease-in-out 0.3s backwards;
+}
+
+@-webkit-keyframes slideOut{
+	0%{top:-30px; opacity: 0;}
+	100%{top:0px; opacity: 1;}
+}
+
+.vladmaxi-top a{
+	padding: 0px 10px;
+	letter-spacing: 1px;
+	color: #333;
+	text-shadow: 0px 1px 1px #fff;
+	display: block;
+	float: left;
+}
+.vladmaxi-top a:hover{
+	background: #fff;
+}
+.vladmaxi-top span.right{
+	float: right;
+}
+.vladmaxi-top span.right a{
+	float: left;
+	display: block;
+}
+
+.tags-link
+{
+	display: inline-block;
+	position:relative; 
+	margin-left: 5px; 
+	margin-top: 5px;
+	padding: 7px 10px 7px 10px;  
+	font-size: 14px;
+    text-decoration: none;
+    color: #000;
+    background-color: #f9f9f9;
+    border-radius: 5px;	
+    transition: 0.2s linear;
+}
+
+.tags-link a
+ {
+ 	color: #333333;
+ }
+
+.tags-link:hover{
+	background-color: #FB9F4C;
+}
+
+.tags-link:hover a
+{
+	color: #fff;
+}
+
+.tags-main
+{
+	width:1040px; 
+	margin-bottom:20px; 
+	margin-top:10px; 
+	font-size: 16px;
+	height: auto;
+}
+
+
+
+.main-item
+{	
+	width: 800px;
+	height: auto;
+	display: inline-block;	
+	border: 1px solid #f1f1f1;
+	background-color: white;
+	margin-bottom: 30px;
+	border-left: 4px solid  #AACB84;
+}
+
+.main-item-p
+{
+	font: 28px Tahoma;
+}
+
+
+
+.main-item-title
+{
+	padding-left: 20px;
+	font: 20px Tahoma;
+	color: gray;
+}
+
+.main-more
+{
+	float: right; 
+	margin-right: 20px; 
+	margin-top: 28px; 
+	font-size: 16px; 
+	font-weight: bold; 
+	text-decoration:underline;	
+}
+
+.main-more a:hover
+{
+	color:  #AACB84;
+}
